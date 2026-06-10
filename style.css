@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;   
+    min-height: 100vh;         
+	}
+
+.main {
+  	max-width: 1440px;
+  	position: relative;
+  	background-color: #969696;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 80px;
+  	box-sizing: border-box;
+  	text-align: left;
+	margin:0;
+}
+h1{
+font-family: Arial Black, Helvetica, sans-serif;
+font-size: 52px;
+margin:0;
+}
+h2{
+font-family: Arial Black, Helvetica, sans-serif;
+font-size: 48px;
+margin:0;
+}
+h3{
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size:40px;
+margin:0;
+}
+p{
+font-family: Arial, Helvetica, sans-serif;
+ font-size: 32px;
+ margin:0;
+}
+
+.text-bold{
+	font-weight: bold;
+}
+
+.frame{
+  	width: 1080px;
+  	display: flex;
+  	flex-direction: column;
+	background-color: #f6f6ff;
+  	gap: 120px;
+	padding: 30px;
+	margin-bottom:120px;
+}
+
+.info{
+box-sizing: border-box;
+   
+
+}
+
+.top{
+display: flex;
+flex-direction:space-between;
+align-items: center;
+gap: 72px;
+}
+
+.myphoto{
+   width: 400px;
+    height: 400px; 
+}
+.textcontainer{
+width: 500px;
+position: relative;
+margin-top: 20px;
+text-align: left;
+}
+
+.infotext{
+max-width:1080px ;
+max-height: 614px;
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-between; 
+gap: 20px;                 
+   
+}
+.colum{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+}
+
+.Group-icons{
+	display: flex;
+	align-items: center;
+	gap: 39px;
+}
+
+.bottom {
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 80px;
+}
+
+.icons {
+  	width: 1120px;
+  	display: flex;
+  	align-items: center;
+  	gap: 39px;
+}
+
+.link {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 32px;
+  	color: #374be3;
+  	font-family: Arial;
+}
+
+.projects {
+  	width: 1080px;            
+    overflow-x: auto;         
+    overflow-y: hidden;
+	display: flex;  
+	flex-direction: row;  
+	flex-wrap: nowrap;              
+    white-space: nowrap;     
+    gap: 40px;               
+
+}
+
+.photo{
+	max-width: 400px;
+  	object-fit: cover;				
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	padding:0 40px 0 0;
+	box-sizing: border-box;
+	margin-top: 80px;
+}
